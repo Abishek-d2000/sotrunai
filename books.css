@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial,  sans-serif;
+}
+.banner {
+    background:linear-gradient(to right,#333,#30cfd0);
+    color: white;
+    text-align: left ;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+    .content h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+
+    .content p {
+        margin: 20px 0;
+
+    }
+
+    
+    .books {
+        width: 300px;
+        height: auto;
+    }
+
+    @keyframes blink{
+        50% {
+            opacity: 0;
+        }
+    }
+    .blink {
+        animation: blink 1s infinite;
+        color: red;
+        font-weight: bold;
+
+    }
+    
+
+   
